@@ -1,0 +1,23 @@
+@import 'variables';
+@import '../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+
+body > header {
+  height: 320px;
+  margin-bottom: 30px;
+  background: $uconn-gray-light;
+
+  #brand {
+    display: block;
+    margin-top: 40px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 10px 10px 0 #182A60;
+    color: #fff;
+  }
+}
